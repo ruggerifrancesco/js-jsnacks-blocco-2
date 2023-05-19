@@ -9,6 +9,6 @@ while (sum < 50) {
     array.push(userInput);
     sum += userInput;
 
-    console.log("La somma degli elementi è maggiore o uguale a 50.");
+    console.log("La somma degli elementi è maggiore o uguale a 50.\nProgramma Finito!");
     console.log(array);
 }
