@@ -1,0 +1,26 @@
+console.log('JS Loaded Successfull!');
+
+/*
+Dare la possibilità di inserire due parole.
+Verificare tramite una funzione che le due parole abbiano la stessa lunghezza.
+Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
+*/
+
+const firstWordToCheck = prompt("Sceglio la prima parola");
+const secondWordToCheck = prompt("Sceglio la seconda parola");
+
+// console.log
+//     (`Parole Scelte: ${firstWordToCheck}, ${secondWordToCheck}\nLunghezza prima ${firstWordToCheck.length} | Lunghezza Seconda ${secondWordToCheck.length}`);
+
+function findLenghtWords (firstWord, secondWord) {
+
+    if (firstWord.length === secondWord.length) {
+        console.log(`${firstWord}, ${secondWord}`);
+    } else if (firstWord.length > secondWord.length) {
+        console.log(`Parola piu lunga: ${firstWord}, totale: ${firstWord.length}`);
+    } else {
+        console.log(`Parola piu lunga: ${secondWord}, totale: ${secondWord.length}`);
+    }
+
+    return findLenghtWords;
+}
