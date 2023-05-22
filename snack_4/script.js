@@ -12,15 +12,19 @@ const secondWordToCheck = prompt("Sceglio la seconda parola");
 // console.log
 //     (`Parole Scelte: ${firstWordToCheck}, ${secondWordToCheck}\nLunghezza prima ${firstWordToCheck.length} | Lunghezza Seconda ${secondWordToCheck.length}`);
 
+findLenghtWords(firstWordToCheck, secondWordToCheck);
+
 function findLenghtWords (firstWord, secondWord) {
 
     if (firstWord.length === secondWord.length) {
         console.log(`${firstWord}, ${secondWord}`);
+        return 1;
     } else if (firstWord.length > secondWord.length) {
         console.log(`Parola piu lunga: ${firstWord}, totale: ${firstWord.length}`);
+        return 0;
     } else {
         console.log(`Parola piu lunga: ${secondWord}, totale: ${secondWord.length}`);
+        return 0;
     }
 
-    return findLenghtWords;
 }
