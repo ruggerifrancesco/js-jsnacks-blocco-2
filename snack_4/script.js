@@ -12,9 +12,9 @@ const secondWordToCheck = prompt("Sceglio la seconda parola");
 // console.log
 //     (`Parole Scelte: ${firstWordToCheck}, ${secondWordToCheck}\nLunghezza prima ${firstWordToCheck.length} | Lunghezza Seconda ${secondWordToCheck.length}`);
 
-findLenghtWords(firstWordToCheck, secondWordToCheck);
+findLengthWords(firstWordToCheck, secondWordToCheck);
 
-function findLenghtWords (firstWord, secondWord) {
+function findLengthWords (firstWord, secondWord) {
 
     if (firstWord.length === secondWord.length) {
         console.log(`${firstWord}, ${secondWord}`);
