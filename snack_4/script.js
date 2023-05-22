@@ -9,9 +9,6 @@ Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lun
 const firstWordToCheck = prompt("Sceglio la prima parola");
 const secondWordToCheck = prompt("Sceglio la seconda parola");
 
-// console.log
-//     (`Parole Scelte: ${firstWordToCheck}, ${secondWordToCheck}\nLunghezza prima ${firstWordToCheck.length} | Lunghezza Seconda ${secondWordToCheck.length}`);
-
 findLengthWords(firstWordToCheck, secondWordToCheck);
 
 function findLengthWords (firstWord, secondWord) {
