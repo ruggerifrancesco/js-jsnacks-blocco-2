@@ -11,6 +11,12 @@ const secondWordToCheck = prompt("Sceglio la seconda parola");
 
 findLengthWords(firstWordToCheck, secondWordToCheck);
 
+/**
+ * 
+ * @param firstWord the lenght of the firstWord insert from the user
+ * @param secondWord the lenght of the secondWord insert from the user
+ * @returns 1 = true, 0 = false
+ */
 function findLengthWords (firstWord, secondWord) {
 
     if (firstWord.length === secondWord.length) {
@@ -25,3 +31,4 @@ function findLengthWords (firstWord, secondWord) {
     }
 
 }
+
