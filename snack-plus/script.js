@@ -20,9 +20,8 @@ const listContent = [
     'Sedano',
 ]
 
-function createElement (tagName, className) {
+function createElement (tagName) {
     const cellElement = document.createElement(tagName);
-    cellElement.className += className;
     return cellElement;
 }
 
