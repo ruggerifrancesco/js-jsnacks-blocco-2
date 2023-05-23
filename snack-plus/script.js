@@ -15,7 +15,9 @@ const listContent = [
     'Banane',
     'Cipolle',
     'Carote',
-    'Carbonara'
+    'Carbonara',
+    'Pomodori',
+    'Sedano',
 ]
 
 function createElement (tagName, className) {
