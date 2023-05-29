@@ -12,11 +12,6 @@ addNewPepper('Caroline Repaer', 'Variety 1', 100, 5);
 addNewPepper('Caroline Repaer', 'Variety 2', 120, 6);
 addNewPepper('Ghost Pepper', 'Variety 1', 90, 4);
 
-// =>  Console Log tutta lista
-for (const key in peppersList) {
-    console.log(peppersList[key])
-}
-
 // Add new Pepper Function Scheme
 function addNewPepper(name, variety, weight, length) {
     const pepper = {
@@ -28,3 +23,9 @@ function addNewPepper(name, variety, weight, length) {
 
     peppersList.push(pepper);
   }
+
+
+// =>  Console Log tutta lista
+for (const key in peppersList) {
+    console.log(peppersList[key])
+}
