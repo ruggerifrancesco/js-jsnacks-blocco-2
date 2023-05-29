@@ -6,6 +6,7 @@ console.log('JS LOADED!');
 // Bonus:
 // crea un peperone con una funzione - DONE
 const peppersList = [];
+let totalPeppersWeight = 0;
 
 addNewPepper('Caroline Repaer', 'Variety 1', 100, 5);
 addNewPepper('Caroline Repaer', 'Variety 2', 120, 6);
