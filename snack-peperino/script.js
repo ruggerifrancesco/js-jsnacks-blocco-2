@@ -27,7 +27,7 @@ function addNewPepper(name, variety, weight, length) {
 
 // => Console Log Array
 console.log(peppersList);
-for (let i = 0; i< peppersList.length; i++) {
+for (let i = 0; i < peppersList.length; i++) {
     totalPeppersWeight += peppersList[i].weight;
 }
 
