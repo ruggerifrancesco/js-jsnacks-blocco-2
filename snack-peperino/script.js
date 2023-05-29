@@ -7,6 +7,10 @@ console.log('JS LOADED!');
 // crea un peperone con una funzione - DONE
 const peppersList = [];
 
+addNewPepper('Caroline Repaer', 'Variety 1', 100, 5);
+addNewPepper('Caroline Repaer', 'Variety 2', 120, 6);
+addNewPepper('Ghost Pepper', 'Variety 1', 90, 4);
+
 // =>  Console Log tutta lista
 for (let i = 0; i < peppersList.length; i++) {
     for (const key in peppersList) {
