@@ -30,3 +30,5 @@ console.log(peppersList);
 for (let i = 0; i< peppersList.length; i++) {
     totalPeppersWeight += peppersList[i].weight;
 }
+
+console.log('Somma totale del peso dei Peperoni:', totalPeppersWeight);
