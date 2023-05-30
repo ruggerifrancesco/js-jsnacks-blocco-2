@@ -15,7 +15,23 @@ Infine stampa separatamente i 3 array.
 
 */
 
-const carsList = [];
+const carsList = [
+    carModule('Toyota', 'Camry', 'petrol'),
+    carModule('Honda', 'Civic', 'electric'),
+    carModule('Ford', 'Mustang', 'petrol'),
+    carModule('Volkswagen', 'Golf', 'diesel'),
+    carModule('Tesla', 'Model S', 'electric'),
+    carModule('Fiat', 'Punto', 'LPG'),
+    carModule('BMW', 'X5', 'petrol'),
+    carModule('Mercedes', 'C-Class', 'diesel'),
+    carModule('Audi', 'A4', 'petrol'),
+    carModule('Chevrolet', 'Cruze', 'petrol'),
+    carModule('Hyundai', 'Elantra', 'electric'),
+    carModule('Nissan', 'Sentra', 'petrol'),
+    carModule('Kia', 'Sportage', 'petrol'),
+    carModule('Mazda', 'CX-5', 'diesel'),
+    carModule('Subaru', 'Impreza', 'petrol')
+];
 
 const carModule = (brand, model, poweredBy) => {
     return {
