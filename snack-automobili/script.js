@@ -15,6 +15,8 @@ Infine stampa separatamente i 3 array.
 
 */
 
+const carsList = [];
+
 const carModule = (brand, model, poweredBy) => {
     return {
         Marca: brand,
