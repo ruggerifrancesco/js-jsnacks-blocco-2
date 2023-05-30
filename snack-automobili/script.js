@@ -24,25 +24,31 @@ const carModule = (brand, model, poweredBy) => {
 }
 
 const carsList = [
-    carModule('Toyota', 'Camry', 'petrol'),
+    carModule('Toyota', 'Camry', 'benzina'),
     carModule('Honda', 'Civic', 'electric'),
-    carModule('Ford', 'Mustang', 'petrol'),
+    carModule('Ford', 'Mustang', 'benzina'),
     carModule('Volkswagen', 'Golf', 'diesel'),
     carModule('Tesla', 'Model S', 'electric'),
     carModule('Fiat', 'Punto', 'LPG'),
-    carModule('BMW', 'X5', 'petrol'),
+    carModule('BMW', 'X5', 'benzina'),
     carModule('Mercedes', 'C-Class', 'diesel'),
-    carModule('Audi', 'A4', 'petrol'),
-    carModule('Chevrolet', 'Cruze', 'petrol'),
+    carModule('Audi', 'A4', 'benzina'),
+    carModule('Chevrolet', 'Cruze', 'benzina'),
     carModule('Hyundai', 'Elantra', 'electric'),
-    carModule('Nissan', 'Sentra', 'petrol'),
-    carModule('Kia', 'Sportage', 'petrol'),
+    carModule('Nissan', 'Sentra', 'benzina'),
+    carModule('Kia', 'Sportage', 'benzina'),
     carModule('Mazda', 'CX-5', 'diesel'),
-    carModule('Subaru', 'Impreza', 'petrol')
+    carModule('Subaru', 'Impreza', 'benzina')
 ];
 
-carsList.forEach(car => {
-    const keys = Object.keys(car);
-    keys.forEach(key => console.log(key + ": " + car[key]));
-    console.log("--------------");
-  });
+// To print all objects into a list in console.log
+// carsList.forEach(car => {
+    // const keys = Object.keys(car);
+    // keys.forEach(key => console.log(key + ": " + car[key]));
+    // console.log("--------------");
+//   });
+
+const petrolCars = [];
+const dieselCars = [];
+const otherCars = [];
+
