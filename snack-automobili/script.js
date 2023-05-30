@@ -41,4 +41,8 @@ const carsList = [
     carModule('Subaru', 'Impreza', 'petrol')
 ];
 
-console.log(carsList);
+carsList.forEach(car => {
+    const keys = Object.keys(car);
+    keys.forEach(key => console.log(key + ": " + car[key]));
+    console.log("--------------");
+  });
