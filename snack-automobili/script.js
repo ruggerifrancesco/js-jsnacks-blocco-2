@@ -48,7 +48,13 @@ const carsList = [
     // console.log("--------------");
 //   });
 
-const petrolCars = [];
+const petrolCars = carsList.filter(car => car.Alimentazione === 'benzina');
+petrolCars.forEach(car => {
+    const keys = Object.keys(car);
+    keys.forEach(key => console.log(key + ": " + car[key]));
+    console.log("--------------");
+});
+
 const dieselCars = [];
 const otherCars = [];
 
