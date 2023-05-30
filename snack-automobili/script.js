@@ -15,6 +15,14 @@ Infine stampa separatamente i 3 array.
 
 */
 
+const carModule = (brand, model, poweredBy) => {
+    return {
+        Marca: brand,
+        Modello: model,
+        Alimentazione: poweredBy,
+    }
+}
+
 const carsList = [
     carModule('Toyota', 'Camry', 'petrol'),
     carModule('Honda', 'Civic', 'electric'),
@@ -33,10 +41,4 @@ const carsList = [
     carModule('Subaru', 'Impreza', 'petrol')
 ];
 
-const carModule = (brand, model, poweredBy) => {
-    return {
-        Marca: brand,
-        Modello: model,
-        Alimentazione: poweredBy,
-    }
-}
+console.log(carsList);
