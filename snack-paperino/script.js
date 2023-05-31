@@ -14,7 +14,7 @@ const array = ['pippo', 'PLUTO', 'PapERino'];
 
 const arrayQuack = [...array];
 
-console.log('Array Prima:', arrayQuack);
+console.log('Array Originale:', arrayQuack);
 
 /**
  * Function to capitalize first letter, and lowercase the rest
