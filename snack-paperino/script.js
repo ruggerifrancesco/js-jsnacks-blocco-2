@@ -23,8 +23,8 @@ console.log('Array Prima:', arrayQuack);
  * @param firstLetter - The first letter of the word, based on the array.lenght is 0
  * @param rest - The rest of the letters in the array to be lowercased
  */
-function capitalizeWords(arr) {
-    return arr.map(word => {
+function capitalizeWords(array) {
+    return array.map(word => {
       const firstLetter = word.charAt(0).toUpperCase();
       const rest = word.slice(1).toLowerCase();
   
@@ -33,3 +33,25 @@ function capitalizeWords(arr) {
   }
 
 console.log('Array Dopo:', capitalizeWords(arrayQuack));
+
+// Bonus Quack
+const arrayQuack2 = [...array];
+
+function capitalizeWordsViceversa(array) {
+    return array.map(word => {
+      let output = '';
+      for (let i = 0, len = word.length; i < len; i++) {
+        const character = word[i];
+        if (character === character.toLowerCase()) {
+          // The character is lowercase
+          output += character.toUpperCase();
+        } else {
+          // The character is uppercase
+          output += character.toLowerCase();
+        }
+      }
+      return output;
+    });
+  }
+
+  console.log('Array2:', capitalizeWordsViceversa(arrayQuack2));
